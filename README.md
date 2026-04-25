@@ -1,6 +1,6 @@
 RetailMart V2 Analytics Dashboard (SQL)
-Overview
 
+Overview
 The RetailMart V2 Analytics Dashboard is an advanced, data-driven analytics system built using SQL to analyze retail business performance across multiple domains.
 
 It processes structured datasets, performs complex queries, and presents insights through modular dashboards such as Executive, Sales, Customer, Marketing, Operations, Finance, Audit, and Supply Chain.
@@ -8,57 +8,58 @@ It processes structured datasets, performs complex queries, and presents insight
 This project solves key business problems and enables data-driven decision-making at an enterprise level.
 
 🗂️ Datasets Used
+
 1. Orders Table
-Contains transaction-level data including:
-Order ID, Sales, Profit, Discount
-Customer Name, Segment
-Order Date, Shipping Details
-Market, Country
+  Contains transaction-level data including:
+  Order ID, Sales, Profit, Discount
+  Customer Name, Segment
+  Order Date, Shipping Details
+  Market, Country
 
 2. Returns Table
-Tracks returned orders:
-Order ID
-Return Status
-Market
+  Tracks returned orders:
+  Order ID
+  Return Status
+  Market
 
 3. Customers / Products / Stores Tables
-Used for:
-Customer segmentation
-Product performance analysis
-Store-level insights
+  Used for:
+  Customer segmentation
+  Product performance analysis
+  Store-level insights
 
 4. Operations / Finance / Audit / Supply Chain Tables
-Contain data related to:
-Logistics & delivery
-Payroll & expenses
-API/system logs
-Inventory & production
+  Contain data related to:
+  Logistics & delivery
+  Payroll & expenses
+  API/system logs
+  Inventory & production
 
 📊 Problem Statements Solved with SQL
 1. Executive KPIs Dashboard
 Objective:
 Calculate and display key business KPIs such as revenue, orders, customers, and profit.
 Steps:
-Use SQL aggregations:
-SUM(Sales) → Total Revenue
-SUM(Profit) → Total Profit
-COUNT(Order_ID) → Total Orders
-Create time-based grouping using:
-GROUP BY YEAR(Order_Date), MONTH(Order_Date)
-Identify:
-Top customers
-Top products
+  Use SQL aggregations:
+      SUM(Sales) → Total Revenue
+      SUM(Profit) → Total Profit
+      COUNT(Order_ID) → Total Orders
+  Create time-based grouping using:
+      GROUP BY YEAR(Order_Date), MONTH(Order_Date)
+  Identify:
+       Top customers
+       Top products
 
 2. Sales Analysis
 Objective:
 Analyze sales trends and performance.
 Steps:
-Query daily and monthly sales using GROUP BY
-Analyze sales by:
-Region
-Payment method
-Category
-Calculate growth trends over time
+   Query daily and monthly sales using GROUP BY
+   Analyze sales by:
+      Region
+      Payment method
+      Category
+   Calculate growth trends over time
 
 3. Customer Analytics
 Objective:
