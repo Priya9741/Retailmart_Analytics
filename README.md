@@ -1,16 +1,14 @@
-RetailMart V2 Analytics Dashboard (SQL)
+# RetailMart V2 Analytics Dashboard (SQL)
 
-Overview
-The RetailMart V2 Analytics Dashboard is an advanced, data-driven analytics system built using SQL to analyze retail business performance across multiple domains.
-
+## Overview
+  The RetailMart V2 Analytics Dashboard is an advanced, data-driven analytics system built using SQL to analyze retail business performance across multiple domains.
 It processes structured datasets, performs complex queries, and presents insights through modular dashboards such as Executive, Sales, Customer, Marketing, Operations, Finance, Audit, and Supply Chain.
-
 This project solves key business problems and enables data-driven decision-making at an enterprise level.
 
-🗂️ Datasets Used
+##🗂️ Datasets Used
 
-1. Orders Table
-  Contains transaction-level data including:
+### 1. Orders Table
+    Contains transaction-level data including:
   Order ID, Sales, Profit, Discount
   Customer Name, Segment
   Order Date, Shipping Details
