@@ -65,12 +65,12 @@ Analyze sales trends and performance.
 Objective:
 Understand customer behavior and segmentation.
 ** Steps: **
-Perform RFM analysis using SQL
-Calculate:
-Customer Lifetime Value (CLV)
-Identify:
-High-value customers
-Churn-risk customers
+   Perform RFM analysis using SQL
+   Calculate:
+      Customer Lifetime Value (CLV)
+  Identify:
+      High-value customers
+      Churn-risk customers
 
 ## 4. Product Analytics
 Objective:
@@ -178,18 +178,18 @@ Scalable query design
 ## Next Steps for Extension
 Predictive analytics (sales forecasting)
 Customer churn prediction
-Real-time dashboard integration (Power BI/Tableau)
-Automated anomaly detection
+      Real-time dashboard integration (Power BI/Tableau)
+       Automated anomaly detection
 
 
 
 ## Significance
 This project helps businesses to:
-Track performance across departments
-Identify inefficiencies in operations
-Optimize marketing and supply chain
-Improve customer experience
-Ensure system reliability and security
+   Track performance across departments
+   Identify inefficiencies in operations
+   Optimize marketing and supply chain
+   Improve customer experience
+   Ensure system reliability and security
 
 
 
