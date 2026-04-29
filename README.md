@@ -8,7 +8,7 @@ This project solves key business problems and enables data-driven decision-makin
 ## 🗂️ Datasets Used
 
 ## 1. Orders Table
-  Contains transaction-level data including:
+           Contains transaction-level data including:
   Order ID, Sales, Profit, Discount
   Customer Name, Segment
   Order Date, Shipping Details
