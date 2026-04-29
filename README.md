@@ -181,7 +181,7 @@ Customer churn prediction
 Real-time dashboard integration (Power BI/Tableau)
 Automated anomaly detection
 
----
+
 
 ## Significance
 This project helps businesses to:
@@ -191,7 +191,7 @@ Optimize marketing and supply chain
 Improve customer experience
 Ensure system reliability and security
 
----
+
 
 ## Visuals
 This repository includes:
